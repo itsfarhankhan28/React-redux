@@ -1,8 +1,8 @@
 import ChangeNumber  from "./IncreDecre";
 
-import { CombinedState } from "redux";
+import { combineReducers } from "redux";
 
-const rootReducer = CombinedState({
+const rootReducer = combineReducers({
     ChangeNumber
 })
 
